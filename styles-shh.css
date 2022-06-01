@@ -1,0 +1,35 @@
+:root {
+    --teal: #026c82;
+    --blue: #074a74;
+    --orange: #ed6533;
+    --brown: #b47860;
+    --cream: #eadec4;
+    --creamlight: #f0e7dc;
+  }
+  @font-face {
+    font-family: 'montserrat';
+    src: url('font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('font/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: var(--creamlight);
+}
+.header h3{
+    text-align: center;
+    padding-top: 50;
+}
+form{
+    padding-top: 90;
+    width: 30%;
+    margin: auto;
+}
+
+@media screen and (max-width:767px){
+    form{
+       
+        width: 70%;
+    }
+}
